@@ -1,0 +1,88 @@
+/* --- Reset de Estilos Básicos --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fcfaf7; /* Off-white aconchegante */
+    color: #4a3e3d; /* Marrom escuro suave para leitura confortável */
+    line-height: 1.6;
+}
+
+/* --- Container de Layout --- */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Cabeçalho --- */
+.main-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee3db;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #436850; /* Verde oliva acolhedor */
+}
+
+.logo span {
+    color: #ad7a5c; /* Terracota suave */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #655453;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #436850;
+}
+
+/* --- Banner de Destaque --- */
+.hero-banner {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1ebe4 100%);
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid hsl(25, 36%, 90%);
+}
+
+.hero-content h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    color: #2c4a3e;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    color: #655453;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #436850;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 3
